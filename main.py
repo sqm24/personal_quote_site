@@ -1,7 +1,11 @@
 from flask import Flask, render_template
 import sqlite3
-test
+
 app = Flask(__name__)
+
+def populate_db():
+
+def get_quote():
 
 @app.route("/")
 def main():
